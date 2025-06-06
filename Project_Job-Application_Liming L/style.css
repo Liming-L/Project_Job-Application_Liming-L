@@ -1,0 +1,165 @@
+html,body{
+  margin:0 auto;
+  font-family:Arial;
+}
+.container{
+  display:flex;
+  padding:10px;
+  flex-wrap:wrap;
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  background-color:white;
+  flex-wrap:wrap;
+  max-height:800px;
+  justify-content:center;
+  text-align:center;
+}
+}
+.center{
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+nav{
+  background-color:cornflowerblue;
+}
+nav a{
+  color:black;
+  padding:10px;
+  flex:1;
+  text-decoration:none;
+  text-align:center;
+}
+nav a:hover{
+  color:red;
+  transition:color 0.2s;
+}
+.subbanner{
+  background-color:rgb(200,225,255);
+}
+#banner{
+  background-color:blue;
+  background-image:url(https://henry.law/wp-content/uploads/2023/07/Screenshot-2024-05-03-at-10.31.16-AM-696x410-c-center.png);
+  color:white;
+  height:270px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  
+}
+#footer{
+  background-color:cornflowerblue;
+  color:white;
+  /*position:fixed;*/
+  left: 0;
+  right: 0;
+  bottom:0px;
+}
+ 
+.card{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  background-color:rgb(200,225,255);
+  flex-wrap:wrap;
+  max-height:700px;;
+}
+
+.highlight{
+  font-style:italic;
+  color:blue;
+}
+.heading{
+  font-weight:bold;
+}
+.button{
+  text-decoration:none;
+  background-color:blue;
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.button:hover{
+  background-color:white;
+  color:black;
+  transition:color 0.7s;
+}
+#panel{
+  flex:1;
+}
+.flash{
+  max-width:200px;
+}
+.card img{
+  height:100px;
+}
+#output{
+  flex-wrap:wrap;
+}
+
+.search{
+  background-color:rgb(200,225,255);
+  border:1px solid black;
+  
+}
+
+#map{
+  flex:1;
+  width:90%;
+  margin-top:50px;
+  height:400px;  /* Required for Leaflet map */  
+  border-radius:10px;
+  box-shadow:2px 2px 2px black;
+  background-color:silver;
+}
+
+.flex{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  background-color:rgb(200,225,255);
+  flex-wrap:wrap;
+  max-height:700px;
+}
+
+.card2{
+  flex:2;
+  margin:20px;
+  text-align:center;
+  flex-wrap:wrap;
+  max-height:700px;;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  height: 270px;
+  background-color:white;
+  justify-content:center;
+  align-items:center;
+}
+
+.card3{
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  background-color:rgb(200,225,255);
+  overflow-y:scroll;
+  flex-wrap:wrap;
+  max-height:700px;
+}
+
+img{
+  border-radius: 10px;
+  margin:10px;
+  width:500px;
+  height:300px;
+}
